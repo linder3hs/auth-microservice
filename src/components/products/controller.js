@@ -5,6 +5,6 @@
 export const getProducts = (req, res) => {
   res.status(200).json({
     ok: true,
-    body: "Edit response",
+    body: "Testing CI/CD with Docker",
   });
 };
